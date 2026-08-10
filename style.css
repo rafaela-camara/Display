@@ -1,0 +1,28 @@
+/* reset padão */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-container{
+    background-color:antiquewhite;
+}
+
+.header-container{
+    width: 100vw;
+    height: 200px;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.header-container a {
+    display: inline-block;
+    background-color:beige;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    
+}
