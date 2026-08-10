@@ -3,26 +3,92 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+}
+html{
+   font-family: Verdana, sans-serif;
+}
+.container{
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+.body-container{
+    background-color:rgb(210, 229, 245);
 }
 
-.body-container{
-    background-color:antiquewhite;
-}
+
 
 .header-container{
+    display: flex;
     width: 100vw;
     height: 200px;
-    background-color: darkblue;
-    text-align: center;
+    background-color: darkblue; 
+    text-align: center; 
+
 }
 
 .header-container a {
-    display: inline-block;
-    background-color:beige;
+    display: inline-block; 
+    background-color:rgb(210, 229, 245);
     margin-left: 10px;
     margin-top: 10px;
     font-size: x-large;
     text-decoration: none;
-    padding: 5px;
+    padding: 5px; 
+    border-radius: 10px;
+   
+}
+/* pseudo classe que indentifica a posicao do cursor do mouse */
+.header-container a:hover{
+    background-color: rgb(6, 6, 187);
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(210, 229, 245);
+    color:darkblue;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(5, 5, 92);
+}
+.section-01{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    padding-left: 20px;
+    /* borda abreviada */
+    border: 3px solid black;
+    background-color: darkblue;
+    color: #fff;
     
 }
+
+.section-01--titulo{
+    margin-bottom: 10px;
+}
+.link-lista{
+    font-size: medium;
+    line-height:20px ;
+}
+
+/*
+display none: não aparece na tela 
+display in-line: elementos em linhas e nao aceita largura e altura (ocupa apenas seu espaço_
+display block: elementos sao um abaixo do outro e aceita largura e altura(ocupa linhas inteiras)
+dislay inline-block: elementos em linha + largura e altura 
+*/
