@@ -1,0 +1,61 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilizar a tag Body */
+body{
+    background-color: rgb(255, 173, 205);
+    /* largura */
+    width: 100vw;
+    /* altura */
+    height: 100vh;
+    /* display padrao:block */
+}
+
+.content-header{
+    width: 100%;
+    height: 33%;
+    background-color: rgb(255, 123, 167);
+    display: flex;
+    /* alinhar na vertical */
+    align-items: center;
+    /* alinhar na horizontar */
+    justify-content: center;
+}
+
+/* estilizar um elemento atraves da classe */
+.banner-header{
+    width: 90%;
+    height: 75%;
+    background-color: rgb(218, 69, 118);
+    
+}
+
+.hero-content{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-content--left{
+    width: 50%;
+    height: 60%;
+    background-color:rgb(218, 69, 118);
+}
+
+.hero-content--center{
+    width: 50%;
+    height: 60%;
+    background-color:rgb(218, 69, 118);
+    border-width:10;
+}
+
+.hero-content--right{
+    width: ;
+}
