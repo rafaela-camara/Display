@@ -11,8 +11,8 @@
 .main_bateria{
     display: flex;
     border: solid ;
-    width: 80vw;
-    height: 90vh;
+    width: 1500px;
+    height: 850px;
 }
 .main_bateria_sc1--foto img{
     border: solid;
@@ -22,12 +22,19 @@
     height: 780px;
 
 }
+.main_bateria_sec2--subtitulo{
+    color: rgb(129, 197, 236);
+    font-family:monospace;
+}
 
 .main_bateria_sc2--titulo{
     border: solid;
     width: 100%;
     height: 33%;
 }
+
+
+
 
 .main_bateria_sc3--subtitulo{
     border: solid;
