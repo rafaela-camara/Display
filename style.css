@@ -1,4 +1,4 @@
-/* reset padão */
+/* reset padao */
 *{
     margin: 0;
     padding: 0;
@@ -87,8 +87,8 @@ html{
 }
 
 /*
-display none: não aparece na tela 
-display in-line: elementos em linhas e nao aceita largura e altura (ocupa apenas seu espaço_
+display none: nao aparece na tela 
+display in-line: elementos em linhas e nao aceita largura e altura (ocupa apenas seu espaco_
 display block: elementos sao um abaixo do outro e aceita largura e altura(ocupa linhas inteiras)
 dislay inline-block: elementos em linha + largura e altura 
 */
