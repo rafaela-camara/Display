@@ -1,0 +1,38 @@
+/*  importal todos arquivos para criar link no html com apenas um arquivo */
+
+@import url(/Modo_Cores/css/reset.css);
+@import url(/Modo_Cores/css/design_system.css);
+
+.color-section{
+    display: flex;
+    /* tamanho de tela disponivel */
+    height: 100vh;
+    width: 100%;
+
+}
+
+.color-section__sidebar{}
+
+.color-section__title{}
+
+.color-section__menu{}
+
+.color-section__link{}
+
+.color-section__link--active{}
+
+.color-section__link--active:hover{}
+
+
+
+
+
+
+.color-section__bar{}
+
+.color-section__bar--rgb-1{}
+.color-section__bar--rgb-2{}
+.color-section__bar--rgb-3{}
+.color-section__bar--rgb-4{}
+.color-section__bar--rgb-5{}
+.color-section__bar--rgb-6{}

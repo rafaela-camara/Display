@@ -2,4 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html{
+    /* efeito */
+    scroll-behavior: smooth;
+    /* qualquer elemento que sair da tela no eixo x não cria barra de rolagem */
+    overflow-x: hidden;
 }
