@@ -11,7 +11,9 @@
 
 }
 
-.color-section__sidebar{}
+ .color-section__sidebar{
+    
+ }
 
 .color-section__title{}
 
@@ -23,7 +25,7 @@
 
 .color-section__link--active:hover{}
 
-.color-section__bar{}
+.color-section__bar{} 
 
 .color-section__bar--rgb-1{
     width:15%;

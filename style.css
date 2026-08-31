@@ -5,18 +5,24 @@
     box-sizing: border-box;
  
 }
+
+:root{
+    --bg-color-container:darkblue;
+    --banana:rgb(210, 229, 245);
+    --font-padrap:Arial;
+}
 html{
-   font-family: Verdana, sans-serif;
+   font-family: var(--font-padrao);
 }
 .container{
-    background-color: darkblue;
+    background-color: var(--bg-color-container);
     width: 300px;
     height: 300px;
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
 }
 .body-container{
-    background-color:rgb(210, 229, 245);
+    background-color:var(--banana);
 }
 
 
