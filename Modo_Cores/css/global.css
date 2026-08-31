@@ -83,6 +83,7 @@
     background-color: aliceblue;
     padding: 10px 12px;
     border-radius: 6px;
+    visibility: hidden;
 }
 
 
@@ -91,6 +92,10 @@
     /* posição do item no eixo z (profundidade) */
     z-index: 10;
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+}
+
+.color-section__bar:hover span{
+    visibility: visible;
 }
 
 .color-section__bar--rgb-1{background-color:var(--color-rgb-1);}
