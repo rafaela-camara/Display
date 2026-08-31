@@ -69,12 +69,22 @@
 }
 
 .color-section__bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* faz com que as 6 colunas se dividem igualmente o espaço restamte  */
     flex-grow: 1;
     height: 100%;
     /* efeito de transição suave */
     transition: tranform 0.25s ease;
 }
+
+.color-section__bar span{
+    background-color: aliceblue;
+    padding: 10px 12px;
+    border-radius: 6px;
+}
+
 
 .color-section__bar:hover{
     transform: scaleX(1.02);
