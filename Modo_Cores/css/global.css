@@ -23,19 +23,32 @@
 
 .color-section__link--active:hover{}
 
-
-
-
-
-
 .color-section__bar{}
 
-.color-section__bar--rgb-1{}
-.color-section__bar--rgb-2{}
-.color-section__bar--rgb-3{}
-.color-section__bar--rgb-4{}
-.color-section__bar--rgb-5{}
-.color-section__bar--rgb-6{}
+.color-section__bar--rgb-1{
+    width:15%;
+    background-color:rgb(255, 0, 0);
+}
+.color-section__bar--rgb-2{
+    width:15%;
+    background-color:rgb(0, 255, 0);
+}
+.color-section__bar--rgb-3{
+    width:15%;
+    background-color:rgb(0, 0, 255);
+}
+.color-section__bar--rgb-4{
+    width:15%;
+    background-color:rgb(255, 255, 0);
+}
+.color-section__bar--rgb-5{
+    width:15%;
+    background-color:rgb(0, 255, 255);
+}
+.color-section__bar--rgb-6{
+    width:15%;
+    background-color:rgb(255, 0, 255);
+}
 
 .color-section__bar--cmyk-1{}
 .color-section__bar--cmyk-2{}
