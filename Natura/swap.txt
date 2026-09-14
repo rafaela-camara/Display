@@ -1,0 +1,11 @@
+  <main>
+        <h1></h1>
+        <article class="brands__grid">
+            <section class="brand-card Kaiak">
+                <div class="brand-card__image"></div>
+                <div class="brand-card__title"></div>
+                <div class="brand-card__description"></div>
+                <div class="brand-card__button"></div>
+            </section>
+        </article>
+    </main>
