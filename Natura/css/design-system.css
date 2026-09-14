@@ -4,7 +4,10 @@
 --brand-card__image-bg: #a1a1a1;
 --brand-card__image: #5d5d5d;
 --brand-card__description: #555;
---brand-card__button: #333;
 --brand-card__button-border: #777;
+--brand-card__button: #333;
+--brand-card__button-hover-bg:#555;
+--brand-card__button-hover: white;
+
 
 }
