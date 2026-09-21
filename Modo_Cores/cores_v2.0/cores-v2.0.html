@@ -23,12 +23,49 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--rgb-1"><span><strong>RGB(255, 0, 0)</strong></span></div>
-        <div class="color-section__bar color-section__bar--rgb-2"><span><strong>RGB(0, 255, 0)</strong></span></div>
-        <div class="color-section__bar color-section__bar--rgb-3"><span><strong>RGB(0, 0, 255)</strong></span></div>
-        <div class="color-section__bar color-section__bar--rgb-4"><span><strong>RGB(255, 255, 0)</strong></span></div>
-        <div class="color-section__bar color-section__bar--rgb-5"><span><strong>RGB(0, 255, 255)</strong></span></div>
-        <div class="color-section__bar color-section__bar--rgb-6"><span><strong>RGB(255, 0, 255)</strong></span></div>
+        <div class="color-section__content">
+
+            <section class="color-section__palette" aria-label="Visualização da Paleta">
+
+                <div class="color-section__bar color-section__bar--rgb-1"><span><strong>RGB(255, 0, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-2"><span><strong>RGB(0, 255, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-3"><span><strong>RGB(0, 0, 255)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-4"><span><strong>RGB(255, 255, 0)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-5"><span><strong>RGB(0, 255, 255)</strong></span></div>
+                <div class="color-section__bar color-section__bar--rgb-6"><span><strong>RGB(255, 0, 255)</strong></span></div>
+
+            </section>
+
+
+            <section class="color-section__faq" aria-labelledby="faq-rgb-title">
+                <h3 id="faq-rgb-title" class="color-section__faq-title">Perguntas Frequentes sobre RGB
+                </h3>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">O que significa a sigla RGB?</summary>
+                    <p class="color-section__faq-answer">Significa Red, Green e Blue (Vermelho, Verde e Azul). É o modelo de cores primárias da luz ultilizado em dispositivos digitais.</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que as cores no monitor (RGB) parecem mais brilhantes do que na impressão (CMYK)?</summary>
+                    <p class="color-section__faq-answer">Porque o RGB emite luz própria diretamente para os seus olhos, permitindo tons néon e ultra saturados que as tintas físicas de uma impressora não conseguem reproduzir.</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">O que é o código Hexadecimal (#) e qual sua relação com o RGB?</summary>
+                    <p class="color-section__faq-answer">LO código Hexadecimal (como #FF0000 para vermelho) é apenas uma forma resumida em texto para representar os valores exatos de luz RGB no desenvolvimento web e design digital.</p>
+
+                </details>
+
+            </section>
+        </div>
+
+
      </section>
 
 
@@ -42,12 +79,45 @@
                 <a href="#google" class="color-section__link">Google</a>
             </nav>
         </aside>
-        <div class="color-section__bar color-section__bar--cmyk-1"><span>CMYK #e60000</span></div>
-        <div class="color-section__bar color-section__bar--cmyk-2"><span>CMYK #006b00</span></div>
-        <div class="color-section__bar color-section__bar--cmyk-3"><span>CMYK #0000ae</span></div>
-        <div class="color-section__bar color-section__bar--cmyk-4"><span>CMYK #dfdf05</span></div>
-        <div class="color-section__bar color-section__bar--cmyk-5"><span>CMYK #03e6e6</span></div>
-        <div class="color-section__bar color-section__bar--cmyk-6"><span>CMYK #d900d9</span></div>
+
+        <div class="color-section__content">
+
+            <section class="color-section__palette" aria-label="Visualização da Paleta">
+                <div class="color-section__bar color-section__bar--cmyk-1"><span>CMYK #e60000</span></div>
+                <div class="color-section__bar color-section__bar--cmyk-2"><span>CMYK #006b00</span></div>
+                <div class="color-section__bar color-section__bar--cmyk-3"><span>CMYK #0000ae</span></div>
+                <div class="color-section__bar color-section__bar--cmyk-4"><span>CMYK #dfdf05</span></div>
+                <div class="color-section__bar color-section__bar--cmyk-5"><span>CMYK #03e6e6</span></div>
+                <div class="color-section__bar color-section__bar--cmyk-6"><span>CMYK #d900d9</span></div>
+            </section>
+
+            <section class="color-section__faq" aria-labelledby="faq-cmyk-title">
+                 <h3 id="faq-cmyk-title" class="color-section__faq-title">Perguntas Frequentes sobre CMYK
+                </h3>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Qual é a diferença entre CMYK e RGB?</summary>
+                    <p class="color-section__faq-answer">CMYK é um modelo de cores subtrativo usado para impressão física (papel, embalagens), enquanto RGB é um modelo aditivo usado para telas digitais (monitores, celulares).</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que devo converter minhas artes de RGB para CMYK antes de imprimir?</summary>
+                    <p class="color-section__faq-answer">Porque as impressoras não conseguem reproduzir todas as cores brilhantes que uma tela exibe. Converter antes permite ajustar e pré-visualizar o resultado real, evitando cores apagadas ou distorcidas no papel.</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">O que significam as letras C, M, Y e K?</summary>
+                    <p class="color-section__faq-answer">Significam Ciano (Cian), Magenta, Amarelo (Yellow) e Preto (Key/Chave, pois a chapa de preto serve de guia para o alinhamento de todas as outras).</p>
+
+                </details>
+            </section>
+        </div>
+
      </section>
 
      <section id="netflix" class="color-section">
@@ -61,9 +131,39 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--netflix-1"><span>HEX #221F1F</span></div>
-        <div class="color-section__bar color-section__bar--netflix-2"><span>HEX #E50914</span></div>
-        <div class="color-section__bar color-section__bar--netflix-3"><span>HEX #F5F5F1</span></div>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta">
+                <div class="color-section__bar color-section__bar--netflix-1"><span>HEX #221F1F</span></div>
+                <div class="color-section__bar color-section__bar--netflix-2"><span>HEX #E50914</span></div>
+                <div class="color-section__bar color-section__bar--netflix-3"><span>HEX #F5F5F1</span></div>
+            </section>
+
+            <section class="color-section__faq" aria-labelledby="faq-netflix-title">
+                <h3 id="faq-rgb-title" class="color-section__faq-title">Perguntas Frequentes sobre Netflix
+                </h3>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Quais são os códigos exatos do vermelho da Netflix?</summary>
+                    <p class="color-section__faq-answer">O vermelho oficial é o Netflix Red (#E50914 em RGB/Hex) e a variação mais escura para o degradê do "N" é o Dark Red (#B81D24).</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que a marca da Netflix usa predominantemente a cor vermelha?</summary>
+                    <p class="color-section__faq-answer">O vermelho estimula a atenção, transmite emoção e energia, além de fazer uma referência direta aos tapetes vermelhos de cinema e às antigas poltronas de cinema.</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que o fundo do aplicativo da Netflix é preto e não branco?</summary>
+                    <p class="color-section__faq-answer">O fundo escuro melhora o contraste das capas dos filmes, reduz o cansaço visual e simula a experiência de estar dentro de uma sala de cinema escura.</p>
+
+                </details>
+            </section>
+        </div>
      </section>
    
     <section id="google" class="color-section">
@@ -77,10 +177,40 @@
             </nav>
         </aside>
 
-        <div class="color-section__bar color-section__bar--google-1"><span>HEX #4285F4</span></div>
-        <div class="color-section__bar color-section__bar--google-2"><span>HEX #FBBC05</span></div>
-        <div class="color-section__bar color-section__bar--google-3"><span>HEX #34A853</span></div>
-        <div class="color-section__bar color-section__bar--google-4"><span>HEX #EA4335</span></div>
+        <div class="color-section__content">
+            <section class="color-section__palette" aria-label="Visualização da Paleta">
+                <div class="color-section__bar color-section__bar--google-1"><span>HEX #4285F4</span></div>
+                <div class="color-section__bar color-section__bar--google-2"><span>HEX #FBBC05</span></div>
+                <div class="color-section__bar color-section__bar--google-3"><span>HEX #34A853</span></div>
+                <div class="color-section__bar color-section__bar--google-4"><span>HEX #EA4335</span></div>
+            </section>
+
+            <section class="color-section__faq" aria-labelledby="faq-google-title">
+                <h3 id="faq-rgb-title" class="color-section__faq-title">Perguntas Frequentes sobre Google
+                </h3>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Quais são as quatro cores oficiais do logotipo do Google?</summary>
+                    <p class="color-section__faq-answer">São Azul (#4285F4), Vermelho (#EA4335), Amarelo (#FBBC05) e Verde (#34A853).</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">Por que o Google escolheu essas cores específicas e quebrou o padrão na letra 'L'?</summary>
+                    <p class="color-section__faq-answer">Para mostrar que a empresa não segue regras rígidas. Três cores primárias foram usadas (azul, vermelho e amarelo), mas o verde (cor secundária) foi colocado no "l" para passar essa ideia de irreverência.</p>
+
+                </details>
+
+                <details class="color-section__faq-item">
+
+                    <summary class="color-section__faq-question">O que foi o famoso "teste dos 41 tons de azul" do Google?</summary>
+                    <p class="color-section__faq-answer">Foi um experimento em que o Google testou 41 variações do tom de azul nos links de busca para ver qual gerava mais cliques, resultando em um aumento de mais de 200 milhões de dólares em receita anual.</p>
+
+                </details>
+            </section>
+        </div>
      </section>
 
 </body>
