@@ -184,10 +184,6 @@
     color: #fff;
 }
 
-.color-section__faq-item:hover .color-section__faq-question{
-    color: #fff;
-}
-
 .color-section__faq-answer{
     margin-top: 14px;
     font-size: 15px;
