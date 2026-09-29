@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de @media</title>
+    <link rel="stylesheet" href="/hub_ai/css/reset.css">
+</head>
+<style>
+    body{
+        padding: 20px;
+        background-color: olive;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 300vh;
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+    }
+
+    .box{
+        width: 100%;
+        max-width: 400px;
+        height: 200px;
+        background-color: black;
+    }
+    
+    .container-position{
+        width: 100%;
+        height: 600px;
+        border: 2px solid rgb(2, 7, 77);
+        position: relative;
+
+
+    }
+
+    .filho-tamanho{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+
+    }
+
+    .filho01__conteiner-position{
+        top: 0;
+        left: 0;
+
+    }
+
+    .filho02__conteiner-position{
+        top: 0;
+        right: 0;
+    }
+
+    .filho03__conteiner-position{
+        bottom: 0;
+        left: 0;
+    }
+
+    .filho04__conteiner-position{
+        bottom: 0;
+        right: 0;
+    }
+
+    .whats{
+        width: 75px;
+        height: 75px;
+        position: fixed;
+        bottom: 12px;
+        right: 24px;
+    }
+
+    .whats img{
+        width: 75px;
+        height: 75px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(min-width:768px){
+    body{
+        background-color: rgb(0, 17, 255);
+        color: aliceblue;
+        } 
+        .box{
+            width: 45%;
+            max-width: 600px;
+        }
+    }
+
+
+    @media(min-width:992px){
+        body{
+        background-color: rgb(61, 185, 235);
+        color: black;
+        } 
+        .box{
+            width: 400px;
+        }
+    }
+  
+</style>
+<body>
+    <h1>Esse é um teste de @media</h1>
+    <div class="container">
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+    </div>
+
+    <div class="container-position">
+        <div class="filho01__conteiner-position filho-tamanho"></div>
+        <div class="filho02__conteiner-position filho-tamanho"></div>
+        <div class="filho03__conteiner-position filho-tamanho"></div>
+        <div class="filho04__conteiner-position filho-tamanho"></div>
+    </div>
+
+    <div class="whats">
+        <img src="/hub_ai/img/whatsapp.png" alt="logo do whatsapp">
+    </div>
+</body>
+</html>
+
