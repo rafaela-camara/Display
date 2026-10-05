@@ -159,5 +159,15 @@
     transition: var(--trasition);
 }
 
+.faq__item[open]{
+    border-color: var(--color-primary);
+}
+
+.faq__summary{
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--color-secondary);
+}
+
 .footer{}
 
