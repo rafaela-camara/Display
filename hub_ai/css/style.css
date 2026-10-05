@@ -1,13 +1,25 @@
 @import url("/hub_ai/css/variables.css");
 @import url("/hub_ai/css/reset.css"); 
 
-.header{}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--color-bg-transparent);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 1000;
+    backdrop-filter: blur(12px);
+}
 
 .header__brand{}
 
 .header__title{}
-
-.nav{}
 
 .nav__list{}
 
