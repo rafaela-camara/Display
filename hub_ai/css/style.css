@@ -1,5 +1,5 @@
-@import url('./variables.css');;
-@import url('./reset.css'); 
+@import url("/hub_ai/css/variables.css");
+@import url("/hub_ai/css/reset.css"); 
 
 .header{}
 
