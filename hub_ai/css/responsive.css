@@ -91,8 +91,33 @@
         padding: 6px 12px;
     }
 
+    .section-ia__container, .section-ia--reverse .section-ia__container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer{
+        height: auto;
+        padding: 10px 5%;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){}
+@media (min-width: 768px) and (max-width: 1023px){
+    .section-ia__container{
+        gap: 24px;
+    }
+
+    .nav__link{
+        padding: 8px 12px;
+        font-size: var(--font-size-sm);
+    }
+
+    .section-ia__title{
+        font-size: 2.4rem;
+    }
+}
 
 @media (min-width: 1024px){}
