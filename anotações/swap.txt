@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Metadados e título -->
+  </head>
+  <body>
+    <header>
+      <!-- Logotipo, título do site e menu de navegação -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Conteúdo principal e exclusivo da página (uma vez por página) -->
+      <section>
+        <h2>Título da Seção</h2>
+        <article>
+          <h3>Título do Artigo</h3>
+          <p>Conteúdo independente que faz sentido sozinho.</p>
+        </article>
+      </section>
+
+      <aside>
+        <!-- Conteúdo de apoio ou relacionado (ex: barra lateral, links úteis) -->
+      </aside>
+    </main>
+
+    <footer>
+      <!-- Rodapé da página (direitos autorais, links de contato, etc.) -->
+    </footer>
+  </body>
+</html>
+
+
+<!DOCTYPE html>: Define a versão HTML5.
+
+<html>: Tag raiz da página (lang="pt-br" define o idioma).
+
+<head>: Metadados, título da aba e configurações invisíveis.
+
+<body>: Todo o conteúdo visível da página.
+
+<header>: Cabeçalho (logo, menu, introdução).
+
+<nav>: Conjunto de links de navegação.
+
+<main>: Conteúdo principal e exclusivo da página (único).
+
+<section>: Seção temática de conteúdo.
+
+<article>: Conteúdo independente e autônomo (ex: post, notícia).
+
+<aside>: Conteúdo secundário/lateral relacionado.
+
+<footer>: Rodapé (direitos autorais, contatos).
+
+<ul>: Lista não ordenada (com pontos).
+
+<li>: Item de uma lista.
+
+<a>: Link de navegação (href define o destino).
+
+<h2> / <h3>: Títulos e subtítulos (hierarquia de texto).
+
+<p>: Parágrafo de texto.
